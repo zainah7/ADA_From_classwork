@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Forms Classwork</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="author" content="Zainah Saheed">
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="icon" href="img/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpeg">
+    </head>
+    <body>
+       <div class="main">
+        <h1>form</h1>
+        <form action="" autocomplete="on" novalidate="off" target="_parent" accept-charset="utf-8">
+            <label for="name">Name: </label>
+            <input id="name" type="text" placeholder="Name" size="40"><br>
+
+            <label for="password"> Password: </label>
+            <input id="password" type="password" placeholder="password" required><br>
+
+            <label for="phoneNo">Phone </label>
+            <input id="phoneNo" type="tel" placeholder="Phone"><br>
+
+            <div class="gender">Gender:<br>
+
+                <label for="male">Male</label>
+                <input type="radio" id="male" value="male" name="gender">
+
+                <label for="female">Female</label>
+                <input type="radio" id="female" value="female" name="gender">
+
+                <label for="other">Other</label>
+                <input type="radio" id="other" value="other" name="gender">
+            </div>
+
+            <div class="hobbies">Choose your Best hobbies<br>
+
+                <label for="code">Coding</label>
+                <input type="checkbox" id="code" value="code" name="hobbies">
+
+                <label for="travel">Travelling</label>
+                <input type="checkbox" id="travel" value="travel" name="hobbies">
+
+                <label for="read">Reading</label>
+                <input type="checkbox" id="read" value="read" name="hobbies">
+
+                <label for="swim">Swimming</label>
+                <input type="checkbox" id="swim" value="swim" name="hobbies">
+
+                <label for="cook">Cooking</label>
+                <input type="checkbox" id="cook" value="cook" name="hobbies">
+
+                
+            </div>
+            
+            <button onClick="alert(`Thank you for your Time`)" type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+        <footer>Craeted by <span class="Zainah">Zainah Saheed</span></footer>
+       </div>
+    </body>
+</html>
